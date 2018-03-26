@@ -443,6 +443,12 @@ export class NgMasonryGridService {
   }
 
   /**
+  */
+  public layout() {
+    this._msnry.layout();
+  }
+
+  /**
    * On transition End, remove eventListener
    * @param observer Subscriber<MasonryGridItem>
    * @param elem: Grid item DOM element
